@@ -3,29 +3,33 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<title>Meu site</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<header>
-		<img src="andre.jpeg" alt="Foto de André Rodrigues de Jesus">
-		<h1>Site Pessoal</h1>
+		<img src="andre.jpeg" alt="Foto de André Rodrigues de Jesus" class="photo">
+		<h1 id="title">Andrerjao </h1>
 	</header>
 
-	<header>
-		<h2>Lista de Postagens</h2>
+	<section>
+		<header>
+			<h2 class="subtitle">Posts</h2>
+		</header>
 
-		<article>
-			<header>Web: HTML, CSS & Javascript</header>
-			<img src="web.jpg" alt="imagem de uma tela de computador com código web">
+		<article class="post">
+			<header>
+				<h3 class="post_title">Web: HTML, CSS & Javascript</h3>
+				<img src="web.jpg" alt="imagem de uma tela de computador com código web" class="post_img">
+			</header>
+			<p class="post_content">
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard <a href="https://www.linkedin.com/in/andrerodriguesj/" target="_blank">dummy</a> text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. <a href="mailto:andre_rodriguesj@hotmail.com" target="_blank">andrerjao</a>
+			</p>
 		</article>
-	</header>
-
-	<p>
-		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard <a href="https://www.linkedin.com/in/andrerodriguesj/" target="_blank">dummy</a> text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. <a href="mailto:andre_rodriguesj@hotmail.com" target="_blank">andrerjao</a>
-	</p>
-
+	</section>
 	<footer>
-		<ul>
+		<ul class="contacts_list">
 			<li><a href="https://www.linkedin.com/in/andrerodriguesj/">Linkedin</a></li>
 			<li><a href="https://www.facebook.com/andre.rodriguesdejesus.5/">Facebook</a></li>
 			<li><a href="tel:+5511976153677">Telefone/Whatsapp</a></li>
